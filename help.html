@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="help.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color: #fafafa;">
+    <header>
+    <nav>
+        <div class="bgcc" style="background-color:#C39126; height: 60px;">
+            <div class="container-fluid justify-content-between navbar mt-1 ">
+                <div class="icon">
+                    <img src="Untitled design (3).png" alt="" width="160px" style="margin-top:-60px;">
+                </div>
+                <div class="links" style="margin-top:-20px; margin-left:150px; font-weight:bold; font-size:18px;">
+                    <a href="" class="pd">Home</a>
+                    <a href="" class="pd" id="explore-link">Explore</a>
+            <ul class="ex material-icons dropdown-icon" id="explore-dropdown">
+                <li style="background-color: #C39126; color: white;">Categories</li>
+                <li><a href="">Historical sites</a></li>
+                <li><a href="">Museums & Exhibitions</a></li>
+                <li><a href="">Hotels & Resorts</a></li>
+                <li><a href="">Vibes & Restaurants</a></li>
+            </ul>
+            <a href="" class="pd" id="contact-link">Contact</a>
+            <ul class="exx material-icons dropdown-icon" id="dropdown">
+                <li class="ph"><i class="fas fa-phone"></i>+201011351821</li>
+                <li class="em"><i class="far fa-envelope"></i> <a href="mailto:egytour.team.eg@gmail.com">egyptour.team.eg@gmail.com</a></li>
+            </ul>
+            <a href="about.html" class="pd">About Us</a>
+        </div>
+        <button class="b justify-content-end" style="margin-right: -50px;"><i class="fa fa-heart fa-xl"style="color: white;"></i></button>
+        <button class="b justify-content-end" onclick="toggleMenu()" style="margin-right: -50px;">
+            <i class="fa-solid fa-circle-user fa-xl"></i>
+        </button>
+        <a href="help.html" class="b justify-content-end"><i class="fa-regular fa-circle-question fa-xl" style="color: white;"></i></a> 
+            <div class="sub-menu-wrap" id="submenu">
+                <div class="sub-menu">
+                    <div class="user-info" id="user-info">
+                        <img src="images.jpg" class="rounded-circle" id="user-image" >
+                        <p id="user-name"></p>
+                        <p id="user-email"></p>
+                        <hr>
+                    </div> 
+                            <div class="link" style="background-color:white;">
+                                <a href="person.html" style="text-decoration: none;"><button><i class="fa-regular fa-circle-user me-8"></i><p>General information</p>
+                                </button></a>
+                                <a href="security.html" style="text-decoration: none;"><button><i class="fa-solid fa-key"></i><p>Security</p></button></a>
+                                        <button onclick="goToPage('favourites.html')"><i class="fa-regular fa-heart"></i><p>Favourites</p></button>
+                                        <button onclick="goToPage('down.html')"><i class="fa-brands fa-google-play"></i><p>Download app</p></button>
+                                        <button onclick="goToPage('help.html')"><i class="fa-regular fa-circle-question"></i><p>Help</p></button>
+                                        <button onclick="goToPage('about.html')"><i style="margin-left:3px;" class="fa-solid fa-exclamation"></i><p style="margin-left:12px;">About us</p></button>
+                                        <hr>
+                                     <button id="signOutButton"><p style="margin-right: 10px;">Sign Out</p><i class="fa-solid fa-right-from-bracket"></i></button>
+                                    </div></div></div>
+</nav>
+</header>
+<div style="background-color: #C39126; border-top:5px solid white; height:250px;">
+    <h3>WELCOME TO THE HELP CENTER</h3>
+    <p style="padding-left:80px; color: white;" >We're available 24 hours a day </p>
+</div> <br>
+<div>
+    <h4 style="font-weight: bold; padding: 0 80px;">Frequently asked a questions</h4>
+    <div class="container search-box">
+        <div class="row d-flex justify-content-between">
+        <div class="col-md-6">
+        <div class="form">
+        <i class="fa fa-search"></i>
+        <input type="search" class="form-control" id="search-input" placeholder="search any question" style="background-color: #E1B24D; border-radius: 20px; width: 300px;" onkeyup="search()">
+        <!-- <input type="search" class="form-control form-input" placeholder="search any question" style="color:#C39126;"> -->
+       </div></div></div></div> <br>
+    <section>
+     <div class="questions-container" style="padding: 0 80px;">
+     <div class="question" style="border: 2px solid #C7D0D4;">
+        <button>
+            <span style="font-weight:bold;">Safety: Is Egypt safe to visit? What are the safety measures taken by the government and the Ministry of Tourism to ensure the safety of tourists? </span>
+                <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p> Egypt is generally safe to visit, with low crime rates and enhanced safety measures in place at major tourist attractions such as the Pyramids of Giza, Luxor, and Aswan. <br> The Egyptian government and tourism industry have made significant efforts to ensure the safety of tourists, with measures such as armed guards, metal detectors, and bag checks at major attractions. <br> However, it is still advisable to be vigilant of your belongings, especially in crowded places, and to respect local customs and laws.
+                    The(The Foreign, Commonwealth & Development Office) lists Aswan, Luxor, Valley of the Kings, and Giza as safe places to visit in Egypt, indicating that tourists are likely to have an enjoyable visit without any unexpected events. <br> However, it is still recommended to stay informed about local news, avoid crowded areas, and consider opting for a small group tour to enhance safety, particularly when exploring religious sites or during religious or public holidays that may attract protests or civil unrest. 
+                    It is also essential to stay healthy during your trip to Egypt by being aware of any health advisories or disease outbreaks in the region you plan to visit, protecting yourself from the sun's intense rays, and considering getting vaccinations or booster shots before your trip</p>
+     </div>
+     <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+                <button>
+                    <span style="font-weight:bold;">Visa: Do I need a visa to visit Egypt? How can I obtain a visa, and what are the requirements for obtaining one?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                        </button>
+                        <p>     To visit Egypt, you will need a valid passport with at least six months remaining validity from the date of entry. <br> Depending on your nationality, you may also need a tourist visa. <br> Citizens from certain countries, including the USA, the UK, all EU states, New Zealand, Australia, and Canada, among others, are able to obtain a visa on arrival in Egypt. <br> Those who aren't able to enter Egypt visa-free or obtain a visa on arrival will need to apply for their Egyptian visa ahead of time. <br> Nationals of certain countries are eligible to apply for a visa online (known as an eVisa), while others will have to apply in person at their nearest Egyptian consulate. <br>
+                            The Egypt eVisa is an online visa issued for the purpose of tourism or business and allows the holder to stay for up to 30 days<br> The application is completed and submitted online, and the e-visa is delivered directly to your email address. <br> The application fee can be paid by credit or debit card. <br>
+                            If you plan to stay in Egypt for longer than 90 days, you will need a residence visa. <br> This permit is also needed to work or study in the country. <br> Once obtained, residence visas are renewable and issued with a validity of up tofive years.<br> After 10 years of continuous residence in Egypt, expats are entitled to apply for citizenship. <br>
+                            To apply for an Egypt visa, you will need to complete an application form, provide a recent passport-size photo, and submit your passport. <br> You may also need to provide additional documents, such as a letter of invitation from a host or company/organization in Egypt, hotel reservations, or a travel itinerary. <br>
+                            It is important to note that the exact requirements and application process may vary depending on your nationality and the type of visa you are applying for. <br> It is recommended to check the instructions and requirements provided by the Egyptian embassy or consulate in your country or the official Egyptian eVisa website for the most up-to-date and accurate information. 
+    </div>
+    <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+        <button>
+            <span style="font-weight:bold;">Cost: How much does a trip to Egypt cost? What are the factors that affect the cost of a trip to Egypt?</span>
+                <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p>The cost of a trip to Egypt can vary greatly depending on several factors, including the length of your stay, the time of year you travel, your budget, and the activities you want to do. <br> A budget trip to Egypt can cost from $470 to $1770 per person, while a high-end luxury trip can range from $1230 to $2500 per person.<br>
+                    The duration of your trip can have a significant impact on the cost of your trip to Egypt. <br> The longer you stay, the more you will spend on accommodations, transportation, meals, and activities. <br>For example, a 4-day trip to Cairo can start from $470, while a15-day Egypt tour can start from $1820.<br>
+                    The time of year you travel can also affect the cost of your trip to Egypt. The best time to visit Egypt is during the winter months from November to April the weather is wonderful, but prices for flights, accommodations, and guides during this time are higher due to high demand . <br> If you are willing to visit Egypt during the shoulder seasons of <span style="font-weight: bold;">autumn </span>, you can find more affordable prices while still enjoying good weather and fewer crowds. <br>
+                    The number of travelers can also affect the cost of your trip to Egypt. <br> Group discounts are available for larger parties, and transportation expenses such as flights or tour buses can be more effective when split among many travelers. <br>
+                    The prices for accommodations can vary based on the time of year, category, and availability. Prices are higher during the peak season, and it is recommended to book in advance to secure the best rates</p>
+</div>
+<div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+    <button>
+        <span style="font-weight:bold;">Cultural tours: What are the most sought-after cultural tours in Egypt? What are the must-visit cities and attractions for cultural tours?</span>
+            <i class="fas fa-chevron-down d-arrow"></i>
+            </button>
+            <p><span style="font-weight: bold;">Cairo</span>:The capital city of Egypt, Cairo is home to some of the most famous cultural attractions in the country, including <br>the Pyramids of Giza, the Sphinx, and the Egyptian Museum, which houses the world's largest collection of ancient Egyptian artifacts. <br>
+                <span style="font-weight: bold;">Luxor</span>:Known as the"world's greatest open-air museum,"Luxor is home to a vast number of ancient temples and tombs,<br> including the Valley of the Kings, the Temple of Karnak, and the Temple of Hatshepsut. <br>
+                <span style="font-weight: bold;">Aswan</span>:Located in southern Egypt, Aswan is known for its stunning temples, including the Temple of Philae and the Temple of Abu Simbel, which are both located on the shores of Lake Nasser. <br>
+                <span style="font-weight: bold;">Alexandria</span>by Alexander the Great in 331 BC, Alexandria was once the center of the ancient world's knowledge and culture. <br> Today, it is home to the Bibliotheca Alexandrina, a modern library and cultural center that honors the city's rich history.</p>
+            </div>
+     <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+        <button>
+            <span style="font-weight:bold;">Food: What are the traditional Egyptian dishes that I should try during my trip? </span>
+                <i class="fas fa-chevron-down d-arrow"></i>
+                 </button>
+                    <p>During your trip to Egypt, you should try traditional Egyptian dishes such as Fatta, Koshari, Bamia, Sayadeya, Moussaka, Molokhia, Ful Medames, Ta'meya (Egyptian Falafel), Alexandrian Liver and Sausages, Kebab & Kofta, and Besarah. <br> These dishes are made with local fruits, vegetables, legumes, and spices grown in the Nile Valley and the Delta. br You can find most of the country's authentic, traditional foods in Cairo, where you can go on a food tour to try many of these dishes. <br> Some of the best places to try these dishes are local restaurants, street food stalls, and international hotels. <br> You can also find a variety of international cuisines in areas such as Zamalek, New Cairo, and October 6.</p>
+                    </div>
+     <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+          <button>
+            <span style="font-weight:bold;">What are the best budget Egypt tours on the market? How can I get the best value and exceptional service for my money?</span>
+             <i class="fas fa-chevron-down d-arrow"></i>
+               </button>
+                  <p>The best budget Egypt tours on the market include those offered by Budget Egypt Tours, Egypt Direct Tours, Your Egypt Tours, Egypt Tours Portal, Travel EG Egypt Tours and Holidays, Egypt Trip Guides, and Egypt Time Travel. <br> These tour operators offer a range of affordable tour packages that provide excellent value for money, with experienced guides, comfortable accommodations, and a variety of cultural and historical experiences. <br>
+                    To get the best value and exceptional service for your money, consider booking a tour package that includes a mix of guided tours, free time for exploration, and opportunities to try local food and activities. <br> Look for tour operators that have positive reviews and a reputation for excellent customer service. <br>
+                    When comparing tour packages, consider the inclusions and exclusions, such as meals, transportation, and entrance fees, to ensure that you are getting the best value for your money. It may also be helpful to read reviews from past customers to get an idea of the quality of service and overall experience. <br>
+                    When traveling on a budget, it's important to be mindful of your spending and to plan ahead for any additional expenses, such as meals and souvenirs. <br> Consider bringing cash for small purchases and using an ATM to withdraw local currency, as credit card fees can add up quickly.</p>
+                </div> 
+     <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+          <button>
+            <span style="font-weight:bold;">Travel tips: What are the essential questions and answers about Egypt that I should know before my trip? What are the helpful travel tips and cultural gems that I should be aware of?</span>
+             <i class="fas fa-chevron-down d-arrow"></i>
+               </button>
+                  <p>Before your trip to Egypt, it's essential to know some questions and answers about the country, such as the official currency being the Egyptian pound, and that tipping is customary. <br> It's also important to be aware of health concerns, such as avoiding tap water and being careful in the sun. <br> In terms of cultural gems, it's worth noting that Cairo's Pyramid hotels offer a different experience than downtown hotels, with outdoor pools and comfortable areas, and that traffic from the city center to the pyramids can take over an hour.
+                    When it comes to food, traditional Egyptian dishes such as Kushari, Mulukhiya, Fatta, Sayadeya, Ful Medames, Ta'meya (Egyptian Falafel), Alexandrian Liver and Sausages, Kebab & Kofta, and Besarah are must-tries. These dishes can be found in local restaurants, street food stalls, and international hotels. <br>
+                    For budget travelers, there are several Egypt tour packages available that offer excellent value for money, with experienced guides, comfortable accommodations, and a variety of cultural and historical experiences. <br> These packages can range from 499 USD and up, and can be customized to fit your preferences and budget. <br>
+                    When it comes to transportation, taxis are widely available and are the fastest and most common way to get around Cairo. However, it's advisable to avoid old black cabs and negotiate the price with new white taxis. <br> Bus travel is also available, and there are many transportation options available from Cairo Airport. <br>
+                    Finally, it's worth noting that Egypt is a big country with a wonderful civilization and always welcomes its amazing travelers at any time. <br> The best time to travel to Egypt is during the winter from September to April as the climate becomes a bit tropical. However, it's important to stay informed about the tourism environment and any updates regarding safety.</p>
+                </div>
+                <!-- <div style="border: 2px solid #C7D0D4; border-top: 0px;">
+                    <h4 style="font-weight:bold; text-align: center;">  About our website</h4><br> -->
+            <div class="question"  style="border: 2px solid #C7D0D4; border-top: 0px;">
+                    <button>
+                      <span style="font-weight:bold;">Who we are?</span>
+                       <i class="fas fa-chevron-down d-arrow"></i>
+                         </button>
+                            <p>Egyptour is the inaugural Egyptian online platform dedicated to uncovering the rich tapestry of archaeological and tourist sites across Egypt.</p>
+                          </div>
+                <!-- </div> -->
+        <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+          <button>
+            <span style="font-weight:bold;">Does our company take any fees?</span>
+              <i class="fas fa-chevron-down d-arrow"></i>
+               </button>
+               <p>We don’t charge you any fees or add any administrative charges. And in many cases, your browsing and subscribing can be free of charge.</p>
+            </div>
+            <div class="question" style="border: 2px solid #C7D0D4; border-top: 0px;">
+                <button>
+                  <span style="font-weight:bold;">Does our company own an app?</span>
+                    <i class="fas fa-chevron-down d-arrow"></i>
+                     </button>
+                     <p>Yes, we have a mobile application and we advice you to download our app to get a better experience</p>
+                  </div>
+     </div>
+    </section>
+    <div class="container d-flex justify-content-between" >
+        <div class="child1 me-5" style="width: 100%;">
+            <h1 style="color: #C39126; text-align: center;">Become VIP!</h1>
+            <p style="color: #C39126;text-align: center;font-size: 30px;">Enjoy priority access to new products, services, and events before they are made available to the general public.</p>
+            <button style="background:#C39126 ;color:white; padding:10px;border-radius: 15px;border-color: #C39126;margin-left: 40%;">Upgrade now!</button>
+        </div>
+        <div class="child2">
+            <img src="./Discount-cuate.png" alt="" width="300px" height="300px" >
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-between" style="background-color: #C39126; padding: 40px;">
+        <div class="child11 me-5"style="width: 100%;">
+            <img src="./Sunny day-cuate.png" alt=""  width="300px" height="300px">
+        </div>
+        <div class="child22">
+            <h1 style="color: white; text-align: center;font-size: 50px;">Customized Experiences</h1>
+            <p style="color: white; text-align: center;font-size: 25px;">Tailor your experience with us according to your preferences and interests, ensuring that every interaction with our brand is personalized and memorable.</p>
+            <button style="background:#98610E ;color:white; padding:20px;border-radius: 15px;border-color: #C39126;margin-left: 40%;">Subscribe now</button>
+        </div>
+    </div>
+    <div class="f" class="container" style="text-align: center;">
+        <img src="Egyp our-1.png" width="170px">
+            <ul style="margin-left:30%;margin-top:-60px;">
+                <li> <a href="" class="ligh">Home</a></li>
+                <!-- <li>
+                    <a href="" class="pd" id="contact-link">Contact</a>
+                <ul class="exx material-icons dropdown-icon" id="dropdown">
+                    <li class="ph"><i class="fas fa-phone"></i>+201004047028</li>
+                    <li class="em"><i class="far fa-envelope"></i> <a href="mailto:norhanswidan0@gmail.com">egyptour.team.eg@gmail.com</a></li>
+                </ul>
+                  </li> -->
+                  <li> <a href="" class="ligh">Ask a questions</a></li>
+                <li> <a href="about.html" class="ligh">About Us</a></li>
+            </ul>
+            <p style="font-weight: 600; color: #C39126; margin-top:-30px;">For better experience , download our mobile app</p>
+                    <p style="color: #C39126;">Download the app by clicking the link below :</p>
+                    <div class="parent d-flex justify-content-center" style="left: 55%;">
+                        <div class="child1"  style="margin-top:-10px;">
+                            <img src="WhatsApp Image 2024-04-08 at 1.49.19 AM (2).jpeg" alt="" width="150px">
+                        </div>
+                        <div class="child2" style=" margin-top:-10px">
+                            <img src="WhatsApp Image 2024-04-08 at 1.49.19 AM.jpeg" alt="" width="150px" style="margin-top: 7px;">
+                        </div>
+                    </div>
+                    <hr width="50%" style="margin-left: 25%;">
+                    <p style="color: #C39126;">All copyrights are reserved by 2024 seniors</p>
+                </div>
+    <script src="help.js"></script>
+     <script src="person.js"></script> 
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

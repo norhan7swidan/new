@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color:#fafafa;">
+<header>
+    <nav>
+        <div class="bgcc" style="background-color:#C39126; height: 60px;">
+            <div class="container-fluid justify-content-between navbar mt-1 ">
+                <div class="icon">
+                    <img src="Untitled design (3).png" alt="" width="160px" style="margin-top:-60px;">
+                </div>
+                <div class="links" style="margin-top:-35px; margin-left:150px; font-weight:bold; font-size:18px;">
+                    <a href="" class="pd">Home</a>
+                    <a href="" class="pd" id="explore-link">Explore</a>
+            <ul class="ex material-icons dropdown-icon" id="explore-dropdown">
+                <li style="background-color: #C39126; color: white;">Categories</li>
+                <li><a href="">Historical sites</a></li>
+                <li><a href="">Museums & Exhibitions</a></li>
+                <li><a href="">Hotels & Resorts</a></li>
+                <li><a href="">Vibes & Restaurants</a></li>
+            </ul>
+            <a href="" class="pd" id="contact-link">Contact</a>
+            <ul class="exx material-icons dropdown-icon" id="dropdown">
+                <li class="ph"><i class="fas fa-phone"></i>+201011351821</li>
+                <li class="em"><i class="far fa-envelope"></i> <a href="mailto:egytour.team.eg@gmail.com">egyptour.team.eg@gmail.com</a></li>
+            </ul>
+            <a href="about.html" class="pd">About Us</a>
+        </div>
+        <button class="b justify-content-end"><i class="fa fa-heart fa-xl"style="color: white; "></i></button>
+        <button class="b justify-content-end" onclick="toggleMenu()" style="margin-left:-70px;">
+            <i class="fa-solid fa-circle-user fa-xl"></i>
+        </button>
+        <a href="help.html" class="b d-flex justify-content-end"  style="margin-left:-70px;"><i class="fa-regular fa-circle-question fa-xl" style="color: white;"></i></a> 
+            <div class="sub-menu-wrap" id="submenu">
+                <div class="sub-menu">
+                    <div class="user-info" id="user-info">
+                        <img src="images.jpg" class="rounded-circle" id="user-image" >
+                        <p id="user-name"></p>
+                        <p id="user-email"></p>
+                        <hr>
+                    </div> 
+                            <div class="link" style="background-color:white;">
+                                <a href="person.html" style="text-decoration: none;"><button><i class="fa-regular fa-circle-user me-8"></i><p>General information</p>
+                                </button></a>
+                                <a href="security.html" style="text-decoration: none;"><button><i class="fa-solid fa-key"></i><p>Security</p></button></a>
+                                        <button onclick="goToPage('favourites.html')"><i class="fa-regular fa-heart"></i><p>Favourites</p></button>
+                                        <button onclick="goToPage('down.html')"><i class="fa-brands fa-google-play"></i><p>Download app</p></button>
+                                        <button onclick="goToPage('help.html')"><i class="fa-regular fa-circle-question"></i><p>Help</p></button>
+                                        <button onclick="goToPage('about.html')"><i style="margin-left:3px;" class="fa-solid fa-exclamation"></i><p style="margin-left:12px;">About us</p></button>
+                                        <hr>
+                                     <button id="signOutButton"><p style="margin-right: 10px;">Sign Out</p><i class="fa-solid fa-right-from-bracket"></i></button>
+                                  </div></div></div>
+</nav>
+</header>
+<div style="background-color: #C39126; border-top:5px solid white;">
+    <h3>Egyptour is pioneering in its approach, <br>
+         dedicated to exploring the diverse tourist <br>
+         destinations of Egypt.</h3>
+</div>
+<div style="padding:80px;" >
+    <h5 style="font-weight: bold;">About Egyptour.com</h5> <br>
+    <p><span style="font-weight: bold;">Egyptour</span> is the inaugural Egyptian online platform dedicated to uncovering the rich tapestry of archaeological and tourist sites across Egypt. Founded by a collective of university students driven by a profound love for their homeland, Egyptour seeks to showcase the country's cultural heritage and bolster domestic tourism, ultimately contributing to the nation's economic growth. Launched in mid-2024, the platform offers comprehensive information, directions, and captivating imagery of each featured location. With a primary focus on engaging young individuals, tourists, and visitors, Egyptour endeavors to illuminate the splendor of Egypt, its illustrious history, and its vibrant populace.<span style="font-weight: bold;">Providing round-the-clock customer support</span>, the website ensures seamless accessibility and assistance for users.</p>
+    <p>Egyptour stands out as a groundbreaking initiative, spearheaded by a passionate group of university students who are deeply committed to promoting Egypt's cultural treasures and fostering domestic tourism. This innovative project, which debuted in the latter half of 2024, serves as a digital gateway to Egypt's myriad archaeological and tourist sites. By offering detailed insights, precise directions, and captivating visuals of each destination, Egyptour aims to captivate a wide audience, including young individuals, tourists, and visitors, with the allure of Egypt's historical marvels.</p>
+    <p>The core mission of Egyptour is twofold: to showcase the beauty and historical significance of Egypt while also contributing to the country's economic prosperity through the promotion of domestic tourism. By highlighting the splendor of Egypt's landscapes, monuments, and people, the platform endeavors to instill a sense of appreciation and wonder in its users. Moreover, by providing customer service round-the-clock, Egyptour ensures that users have continuous support and guidance as they explore the diverse offerings of the website.</p>
+    <p>In essence,<span style="font-weight: bold;">Egyptour represents a dynamic platform that not only celebrates Egypt's rich heritage</span> but also serves as a catalyst for sustainable tourism growth and economic development. Through its user-friendly interface, comprehensive information, and unwavering commitment to customer service, Egyptour is poised to become a premier destination for individuals seeking to immerse themselves in the wonders of Egypt</p>
+</div>
+<div class="container">
+    <div class="card__container">
+       <article class="card__article">
+          <img src="pexels-pixabay-262786.jpg" alt="image" class="card__img">
+       </article>
+       <article class="card__article">
+          <img src="pexels-diego-f-parra-33199-15188093.jpg" alt="image" class="card__img">
+       </article>
+
+       <article class="card__article">
+          <img src="pexels-yasmine-qasem-1054896-2034684.jpg" alt="image" class="card__img">
+       </article>
+    </div>
+ </div>
+ <div class="container" style="margin-top: -250px;">
+    <div class="card__container">
+       <article class="card__article">
+          <img src="pexels-freestockpro-1540108.jpg" alt="image" class="card__img">
+       </article>
+       <article class="card__article">
+          <img src="pexels-axp-photography-500641970-18991599.jpg" alt="image" class="card__img">
+       </article>
+
+       <article class="card__article">
+          <img src="church.jpg" alt="image" class="card__img">
+       </article>
+    </div>
+ </div>
+ <div style="padding:80px; margin-top:-300px;">
+    <h4>What Egyptour.com<br>offers</h4> <br>
+    <p><span style="font-weight: bold;">Incredible experience</span> <br>
+        We provide a superior user experience and a wide array of options encompassing tourist destinations, antiquities, hotels, and restaurants to cater to your <br> individual 
+        preference </p> <br>
+
+        <p><span style="font-weight: bold;">No fees</span> <br>
+            We don’t charge you any fees or add any administrative charges. And in many cases, your browsing and subscribing can be free of charge.
+        </p><br>
+
+      <p><span style="font-weight: bold;">24/7 support</span> <br>
+      Our customer experience team are on hand around the clock to answer your questions and advocate on your behalf in more than 40 languages.
+      </p><br>
+
+      <p><span style="font-weight: bold;">Constant evolution</span> <br>
+        We strive to deliver an exceptional promotional service for our company, continually prioritizing the enhancement of user experience and providing <br> comprehensive, limitless services to our valued users, both domestically and internationally.
+      </p><br>
+ </div>
+ <div class="container d-flex justify-content-between" style="margin-top:-260px;">
+    <div class="child1 me-5" style="width: 60%;">
+        <h1 style="color: #C39126; text-align: center;">Become VIP!</h1>
+        <p style="color: #C39126;text-align: center;font-size: 30px;">Enjoy priority access to new products, services, and events before they are made available to the general public.</p>
+        <button style="background:#C39126 ;color:white; padding:10px;border-radius: 15px;border-color: #C39126;margin-left: 40%;">Upgrade now!</button>
+    </div>
+    <div class="child2">
+        <img src="./Discount-cuate.png" alt="" width="300px" height="300px" >
+    </div>
+</div>
+<div class="container-fluid d-flex justify-content-between" style="background-color: #C39126; padding: 40px; margin-top:-150px;">
+    <div class="child11 me-5"style="width: 50%;">
+        <img src="./Sunny day-cuate.png" alt=""  width="300px" height="300px">
+    </div>
+    <div class="child22">
+        <h1 style="color: white; text-align: center;font-size: 50px;">Customized Experiences</h1>
+        <p style="color: white; text-align: center;font-size: 25px;">Tailor your experience with us according to your preferences and interests, ensuring that every interaction with our brand is personalized and memorable.</p>
+        <button style="background:#98610E ;color:white; padding:20px;border-radius: 15px;border-color: #C39126;margin-left: 40%;">Subscribe now</button>
+    </div>
+</div>
+<div class="f" class="container" style="text-align: center;">
+    <img src="Egyp our-1.png" width="170px" style="margin-left:45%; margin-top: -50px;">
+        <ul style="margin-left:30%; margin-top: -60px;">
+            <li> <a href="" class="ligh">Home</a></li>
+            <!-- <li>
+                <a href="" class="pd" id="contact-link">Contact</a>
+            <ul class="exx material-icons dropdown-icon" id="dropdown">
+                <li class="ph"><i class="fas fa-phone"></i>+201004047028</li>
+                <li class="em"><i class="far fa-envelope"></i> <a href="mailto:norhanswidan0@gmail.com">egyptour.team.eg@gmail.com</a></li>
+            </ul>
+              </li> -->
+              <li> <a href="" class="ligh">Ask a questions</a></li>
+            <li> <a href="about.html" class="ligh">About Us</a></li>
+        </ul> 
+        <p style="font-weight: 600; color: #C39126;">For better experience , download our mobile app</p>
+                <p style="color: #C39126;">Download the app by clicking the link below :</p>
+                <div class="parent d-flex justify-content-center" style="left: 55%;">
+                    <div class="child1"  style="margin-top:-10px;">
+                        <img src="WhatsApp Image 2024-04-08 at 1.49.19 AM (2).jpeg" alt="" width="150px">
+                    </div>
+                    <div class="child2" style=" margin-top:-10px">
+                        <img src="WhatsApp Image 2024-04-08 at 1.49.19 AM.jpeg" alt="" width="150px" style="margin-top: 7px;">
+                    </div>
+                </div>
+                <hr width="50%" style="margin-left: 25%;">
+                <p style="color: #C39126;">All copyrights are reserved by 2024 seniors</p>
+            </div>
+    <script src="about.js"></script>
+    <script src="person.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
